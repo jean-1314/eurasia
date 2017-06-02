@@ -73,15 +73,17 @@
 
       <section class="main__quote">
         <h2 style="display:none;">Цитата старшего вице-президента компании</h1>
-        <strong class="main__quote-persona">Иванов Алексей</strong>
+        <strong class="main__quote-person">Иванов Алексей</strong>
         <blockquote class="main__quote-quotation">Мы все хотим, чтобы ЕВРАЗ был эффективной компанией с высоким уровнем безопасности труда, ориентированной на запросы клиентов, поставляющей продукцию высокого качества...</blockquote>
-        <span class="main__quote-position">Старший Вице-президент, Блок коммерции и развития&nbsp;бизнеса</span>
+        <span class="main__quote-position">Старший Вице-президент,<br> Блок коммерции и развития&nbsp;бизнеса</span>
       </section>
 
       <section class="main__video">
         <div class="main__video-show"></div>
-        <h2 class="main__video-header">Евраз ТВ</h2>
-        <strong class="main__video-title">65-летие Рельсобалочного цеха ЕВРАЗ НТМК</strong>
+        <div class="main__video-caption">
+          <h2 class="main__video-header">Евраз ТВ</h2>
+          <strong class="main__video-title">65-летие Рельсобалочного цеха&nbsp;ЕВРАЗ НТМК</strong>
+        </div>
       </section>
 
       <aside class="aside-news">
@@ -101,15 +103,15 @@
         </div>
 
         <div class="aside-news__switcher">
-          <input id="switcher-1" type="radio" name="switcher-pin">
+          <input id="switcher-1" type="radio" name="switcher-pin" class="aside-news__switcher-input">
           <label for="switcher-1" class="aside-news__switcher-label"></label>
-          <input id="switcher-2" type="radio" name="switcher-pin" checked>
+          <input id="switcher-2" type="radio" name="switcher-pin" class="aside-news__switcher-input" checked>
           <label for="switcher-2" class="aside-news__switcher-label"></label>
-          <input id="switcher-3" type="radio" name="switcher-pin">
+          <input id="switcher-3" type="radio" name="switcher-pin" class="aside-news__switcher-input">
           <label for="switcher-3" class="aside-news__switcher-label"></label>
-          <input id="switcher-4" type="radio" name="switcher-pin">
+          <input id="switcher-4" type="radio" name="switcher-pin" class="aside-news__switcher-input">
           <label for="switcher-4" class="aside-news__switcher-label"></label>
-          <input id="switcher-5" type="radio" name="switcher-pin">
+          <input id="switcher-5" type="radio" name="switcher-pin" class="aside-news__switcher-input">
           <label for="switcher-5" class="aside-news__switcher-label"></label>
 
           <a href="#" class="aside-news__switcher-back">Вперёд</a>
@@ -120,31 +122,30 @@
       <section class="main__news">
 
         <div class="main__news-list">
-
           <div class="main__news-item">
             <img class="main__news-img" src="http://via.placeholder.com/220x165" alt="news-1" width="220" height="165">
-            <div class="main__news-company main__news-company--yellow">Юг</div>
-            <strong class="main__news-title">ЕВРАЗ передал здание шахты «МУК-96» Междуреченску</strong>
+            <div class="main__news-company main__news-company--yellow"><span>Юг</span></div>
+            <a href="#" class="main__news-title">ЕВРАЗ передал здание шахты «МУК-96» Междуреченску</a>
             <em class="main__news-date"><time datetime="2016-12-28">Сегодня</time></em>
           </div>
 
           <div class="main__news-item">
             <img class="main__news-img" src="http://via.placeholder.com/220x165" alt="news-1" width="220" height="165">
-            <div class="main__news-company main__news-company--yellow">Юг</div>
-            <strong class="main__news-title">На теплоэлектроцентрали ЕВРАЗ Южкокса внедрили систему LOTO</strong>
+            <div class="main__news-company main__news-company--yellow"><span>Юг</span></div>
+            <a href="#" class="main__news-title">На теплоэлектроцентрали ЕВРАЗ Южкокса внедрили систему LOTO</a>
           </div>
 
           <div class="main__news-item">
             <img class="main__news-img" src="http://via.placeholder.com/220x165" alt="news-1" width="220" height="165">
-            <div class="main__news-company main__news-company--red">ЗСМК</div>
-            <strong class="main__news-title">ЕВРАЗ ЗСМК посетили представители ключевого дилера строительного металлопроката</strong>
+            <div class="main__news-company main__news-company--red"><span>ЗСМК</span></div>
+            <a href="#" class="main__news-title">ЕВРАЗ ЗСМК посетили представители ключевого дилера строительного металлопроката</a>
             <em class="main__news-date"><time datetime="2016-12-27">Вчера</time></em>
           </div>
 
           <div class="main__news-item">
             <img class="main__news-img" src="http://via.placeholder.com/220x165" alt="news-1" width="220" height="165">
-            <div class="main__news-company main__news-company--orange">НТМК</div>
-            <strong class="main__news-title">ЕВРАЗ НТМК повышает эффективность выплавки стали</strong>
+            <div class="main__news-company main__news-company--orange"><span>НТМК</span></div>
+            <a href="#" class="main__news-title">ЕВРАЗ НТМК повышает эффективность выплавки стали</a>
             <em class="main__news-date"><time datetime="2016-12-19">19 декабря</time></em>
           </div>
         </div>
