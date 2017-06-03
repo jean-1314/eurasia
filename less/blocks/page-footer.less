@@ -154,12 +154,26 @@
 }
 
 .page-footer__stock-dynamics {
+  position: relative;
   display: block;
   padding-top: 3px;
   font-weight: 300;
   font-size: 12px;
   line-height: 14.4px;
   color: #46b900;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 77px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 4px 6px 4px;
+    border-color: transparent transparent #45ba01 transparent;
+
+  }
 }
 
 
