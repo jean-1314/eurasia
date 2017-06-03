@@ -5,8 +5,21 @@
 }
 
 .aside-news__person {
+  position: relative;
   padding-top: 13px;
   padding-left: 72px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+    background-position: -262px -5px;
+  }
 }
 
 .aside-news__person-name,
@@ -31,9 +44,22 @@
 }
 
 .aside-news__urgent {
+  position: relative;
   width: 200px;
   margin-top: 53px;
   padding-left: 74px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -9px;
+    left: 13px;
+    width: 30px;
+    height: 31px;
+    background-position: -372px -5px;
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+  }
 }
 
 .aside-news__urgent-time,
@@ -58,8 +84,21 @@
 }
 
 .aside-news__agenda {
+  position: relative;
   margin-top: 40px;
   padding-left: 74px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -9px;
+    left: 16px;
+    width: 24px;
+    height: 31px;
+    background-position: -192px -5px;
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+  }
 }
 
 .aside-news__agenda-time,
