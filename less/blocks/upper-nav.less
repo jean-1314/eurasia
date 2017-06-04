@@ -1,6 +1,12 @@
 .upper-nav {
   order: 2;
   width: 1050px;
+
+  @media @desktop-xl {
+    display: flex;
+    justify-content: center;
+    width: 82%;
+  }
 }
 
 .upper-nav__list {
@@ -9,6 +15,8 @@
   margin: 0;
   padding-left: 0;
   list-style: none;
+
+
 }
 
 .upper-nav__item {

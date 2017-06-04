@@ -16,6 +16,8 @@ img {
   height: auto;
 }
 
+@desktop-xl: ~"(min-width: 1281px)";
+
 @font-face {
   font-family: "Roboto";
   font-style: normal;
@@ -76,18 +78,26 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 920px;
+  width: 840px;
   height: 670px;
   background-color: #f6f6f6;
   z-index: 1;
+
+  @media @desktop-xl {
+    width: 65.6%;
+  }
 }
 
 .white {
   position: absolute;
   top: 300px;
   left: 0;
-  width: 419px;
+  width: 340px;
   height: 230px;
   background-color: #ffffff;
   z-index: 3;
+
+  @media @desktop-xl {
+    width: 26.6%;
+  }
 }
