@@ -61,6 +61,11 @@
   background-color: gray;
   background-image: url("../img/video.jpg");
   background-repeat: no-repeat;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.7;
+  }
 
   &::before {
     content: "";
@@ -102,6 +107,11 @@
   line-height: 19.2px;
   color: #231f20;
   letter-spacing: 0.7px;
+
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
 }
 
 .main__news {
@@ -169,6 +179,10 @@
   font-weight: 500;
   color: #221f1f;
   text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .main__news-date {
@@ -200,6 +214,10 @@
   text-decoration: none;
   color: #231f20;
   letter-spacing: 0.9px;
+
+  &:hover {
+    text-decoration: underline;
+  }
 
   &:first-child {
     margin-right: 20px;

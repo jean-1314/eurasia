@@ -15,8 +15,6 @@
   margin: 0;
   padding-left: 0;
   list-style: none;
-
-
 }
 
 .upper-nav__item {
@@ -112,6 +110,11 @@
   font-weight: 300;
   color: #221f1f;
   text-decoration: none;
+
+  &:hover {
+    color: #000000;
+    text-decoration: underline;
+  }
 }
 
 .upper-nav__number {
@@ -142,6 +145,7 @@
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
   z-index: 9;
+  cursor: pointer;
 }
 
 .upper-nav__mail::after {
@@ -175,6 +179,11 @@
   line-height: 16.8px;
   color: #231f20;
   text-decoration: none;
+
+  &:hover {
+    color: #000000;
+    text-decoration: underline;
+  }
 
   &::before {
     content: "";
