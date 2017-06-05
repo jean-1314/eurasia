@@ -1,2 +1,2 @@
 # eurasia
-Another skill test page
+A skill test page
